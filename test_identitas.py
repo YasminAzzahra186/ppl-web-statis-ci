@@ -6,4 +6,4 @@ def test_index_exists():
 def test_nim_terdapat_dalam_file():
     with open("index.html", "r", encoding="utf-8") as f:
         content = f.read()
-    assert "1234567890" in content, "NIM tidak ditemukan di dalam index.html"
+    assert "230411100186" in content, "NIM tidak ditemukan di dalam index.html"
